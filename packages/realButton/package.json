@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "Vue Wrapper of Josh Comeau 'real' web button",
   "private": false,
-  "main": "/packages/realButton/lib/index.js",
-  "module": "/packages/realButton/es/index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "license": "MIT",
   "author": "el_c0mpa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elC0mpa/vue-real-button"
+  },
   "scripts": {
     "build": "rollup -c"
   },
   "files": [
-    "/packages/realButton/lib",
+    "lib",
     "README.md"
   ],
   "dependencies": {

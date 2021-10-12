@@ -15,7 +15,7 @@ module.exports = [
     plugins: [
       vue({
         // Insert the style in the single file component into the style tag in html
-        css: true,
+        css: false,
         // Convert component to render function
         compileTemplate: true,
       }),
