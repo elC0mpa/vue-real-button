@@ -1,6 +1,6 @@
 {
   "name": "vue-real-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue Wrapper of Josh Comeau 'real' web button",
   "private": false,
   "main": "packages/realButton/lib/index.js",
