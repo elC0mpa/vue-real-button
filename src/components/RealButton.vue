@@ -144,14 +144,14 @@ export default {
     height: 100%;
     will-change: transform;
     border-radius: 5px;
-    transform: translateY(2px);
+    transform: translateY(0.2rem);
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
     &:hover {
       transform: translateY(4px);
       transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
     }
     &:active {
-      transform: translateY(1px);
+      transform: translateY(0.1rem);
       transition: transform 34ms;
     }
     &.is-rounded {
@@ -280,19 +280,19 @@ export default {
   &__front {
     display: block;
     position: relative;
-    padding: 1.2rem 3rem;
+    padding: 12px 30px;
     font-size: 1.25rem;
     color: white;
     will-change: transform;
-    transform: translateY(-5px);
+    transform: translateY(-0.5rem);
     border-radius: 5px;
     transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
     &:hover {
-      transform: translateY(-7px);
+      transform: translateY(-0.7rem);
       transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
     }
     &:active {
-      transform: translateY(-3px);
+      transform: translateY(-0.3rem);
       transition: transform 34ms;
     }
     &.is-bold {
@@ -302,41 +302,41 @@ export default {
       border-radius: 12px;
     }
     &.is-small {
-      padding: 1.2rem 2.5rem;
+      padding: 12px 25px;
       font-size: 1rem;
-      transform: translateY(-3px);
+      transform: translateY(-0.3rem);
       &:hover {
-        transform: translateY(-5px);
+        transform: translateY(-0.5rem);
         transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
       }
       &:active {
-        transform: translateY(-1px);
+        transform: translateY(-0.1rem);
         transition: transform 34ms;
       }
     }
     &.is-medium {
-      padding: 1.2rem 3.5rem;
+      padding: 12px 35px;
       font-size: 1.5rem;
-      transform: translateY(-5px);
+      transform: translateY(-0.5rem);
       &:hover {
-        transform: translateY(-7px);
+        transform: translateY(-0.7rem);
         transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
       }
       &:active {
-        transform: translateY(-3px);
+        transform: translateY(-0.3rem);
         transition: transform 34ms;
       }
     }
     &.is-large {
-      padding: 1.2rem 4.2rem;
+      padding: 12px 42px;
       font-size: 2rem;
-      transform: translateY(-10px);
+      transform: translateY(-1rem);
       &:hover {
-        transform: translateY(-12px);
+        transform: translateY(-1.2rem);
         transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
       }
       &:active {
-        transform: translateY(-8px);
+        transform: translateY(-0.8rem);
         transition: transform 34ms;
       }
     }
