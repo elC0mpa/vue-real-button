@@ -1,6 +1,6 @@
 {
   "name": "vue-real-button",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Vue Wrapper of Josh Comeau 'real' web button",
   "private": false,
   "main": "dist/index.js",
@@ -21,7 +21,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "demo.png"
   ],
   "dependencies": {
     "rollup-plugin-postcss": "^4.0.1",
