@@ -23,6 +23,3 @@ export default {
 };
 </script>
 ```
-
-[← Installation](../installation/)
-[Properties →](../properties/)

@@ -330,13 +330,13 @@ export default {
     &.is-large {
       padding: 12px 42px;
       font-size: 2rem;
-      transform: translateY(-1rem);
+      transform: translateY(-0.7rem);
       &:hover {
-        transform: translateY(-1.2rem);
+        transform: translateY(-0.9rem);
         transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
       }
       &:active {
-        transform: translateY(-0.8rem);
+        transform: translateY(-0.5rem);
         transition: transform 34ms;
       }
     }

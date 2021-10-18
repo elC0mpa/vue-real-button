@@ -11,5 +11,3 @@ This component is a wrapper of **Josh Comeau's magical 3D Button**, you can chec
 Aren´t you tired of boring and non real buttons in the web? Well, if that is your case, here you will find the solution :wink:
 
 <RealButton>Click Me!</RealButton>
-
-[Installation →](./installation/)

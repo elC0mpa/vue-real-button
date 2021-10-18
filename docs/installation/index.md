@@ -11,6 +11,3 @@ npm i vue-real-button
 ```bash
 yarn add vue-real-button
 ```
-
-[← Introduction](../)
-[Usage →](../usage/)
