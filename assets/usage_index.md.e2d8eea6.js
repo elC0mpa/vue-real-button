@@ -1,0 +1,15 @@
+import{_ as a,c as n,o as s,e as t}from"./app.d6a1f299.js";const _='{"title":"Usage","description":"","frontmatter":{},"headers":[{"level":2,"title":"Import as a Plugin","slug":"import-as-a-plugin"},{"level":2,"title":"Import Locally","slug":"import-locally"}],"relativePath":"usage/index.md","lastUpdated":1634519864114}',p={},o=t(`<h1 id="usage" tabindex="-1">Usage <a class="header-anchor" href="#usage" aria-hidden="true">#</a></h1><h2 id="import-as-a-plugin" tabindex="-1">Import as a Plugin <a class="header-anchor" href="#import-as-a-plugin" aria-hidden="true">#</a></h2><div class="language-js"><pre><code><span class="token keyword">import</span> <span class="token punctuation">{</span> createApp <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">&quot;./App.vue&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> RealButton <span class="token keyword">from</span> <span class="token string">&quot;vue-real-button&quot;</span><span class="token punctuation">;</span>
+
+<span class="token function">createApp</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>RealButton<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">mount</span><span class="token punctuation">(</span><span class="token string">&quot;#app&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="import-locally" tabindex="-1">Import Locally <a class="header-anchor" href="#import-locally" aria-hidden="true">#</a></h2><div class="language-js"><pre><code><span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+<span class="token keyword">import</span> RealButton <span class="token keyword">from</span> <span class="token string">&quot;vue-real-button&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">&quot;App&quot;</span><span class="token punctuation">,</span>
+  components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    RealButton<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+</code></pre></div>`,5),e=[o];function c(l,u,r,i,k,d){return s(),n("div",null,e)}var g=a(p,[["render",c]]);export{_ as __pageData,g as default};

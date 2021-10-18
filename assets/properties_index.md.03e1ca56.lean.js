@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as n,e as l}from"./app.d6a1f299.js";const p='{"title":"Properties","description":"","frontmatter":{},"relativePath":"properties/index.md","lastUpdated":1634523020632}',r={},d=l('',2),i=[d];function a(s,o,c,g,y,x){return n(),e("div",null,i)}var _=t(r,[["render",a]]);export{p as __pageData,_ as default};
